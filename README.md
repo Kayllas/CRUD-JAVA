@@ -1,41 +1,40 @@
 Criando um CRUD em Java utilizando framework Spring 
- INICIAR
 
- Iniciar o projeto
- Criar um servidor
- Instalar e configurar um banco de dados
- Instalar e configurar uma Template Engine
- Fazer um auto reload do servidor, sempre que modificar algum arquivo.
- CREATE
+- [x] INICIAR
+  - [x] Iniciar o projeto
+  - [x] Criar um servidor
+  - [x] Instalar e configurar um banco de dados
+  - [x] Instalar e configurar uma Template Engine
+  - [x] Fazer um auto reload do servidor, sempre que modificar algum arquivo.
 
- Criar a rota de cadastro "/contacts/create"
- Criar o formulário de cadastro
- Criar a rota POST "/contacts"
- Cadastrar um contato no banco de dados
- READ
+- [x] CREATE
+  - [x] Criar a rota de cadastro "/contacts/create"
+  - [x] Criar o formulário de cadastro
+  - [x] Criar a rota POST "/contacts"
+  - [x] Cadastrar um contato no banco de dados
 
- Criar a rota GET "/contacts"
- Criar a página de listagem dos contatos
- Separar as configurações de banco
+- [x] READ
+  - [x] Criar a rota GET "/contacts"
+  - [x] Criar a página de listagem dos contatos
 
- Separar as rotas
+- [x] Separar as configurações de banco
+- [x] Separar as rotas
 
- MVC
+- [x] MVC
+  - [x] Criar a estrutura da pastas
+  - [x] Criar as Views
+  - [x] Criar o Controller de Contatos
+  - [x] Criar os métodos do Controller
+  - [x] Criar o Model de Contatos
+  - [x] Conectar o Model ao Controller e ao Banco
 
- Criar a estrutura da pastas
- Criar as Views
- Criar o Controller de Contatos
- Criar os métodos do Controller
- Criar o Model de Contatos
- Conectar o Model ao Controller e ao Banco
- EDIT
+- [x] EDIT
+  - [x] Criar a rota GET "/contacts/:id"
+  - [x] Enviar dados para a Template Engine
+  - [x] Criar o formulário de edição
+  - [x] Atualizar o contato no banco de dados
 
- Criar a rota GET "/contacts/:id"
- Enviar dados para a Template Engine
- Criar o formulário de edição
- Atualizar o contato no banco de dados
- DELETE
-
- Criar a rota de DELETE "/contacts"
- Desenvolver a ação de deletar
- Remover do banco de dados
+- [x] DELETE
+  - [x] Criar a rota de DELETE "/contacts"
+  - [x] Desenvolver a ação de deletar
+  - [x] Remover do banco de dados 
